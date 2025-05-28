@@ -1,0 +1,23 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "microservice-aggregator",
+    "dateExported": "2023-12-16T07:26:03.137Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "8e3d0086-a9d6-4d03-8d4c-eb8c702abdc7",
+            "colId": "efa90e45-105e-42b3-bb61-25a4780326e3",
+            "containerId": "",
+            "name": "http://localhost:3000/aggregatedData/:userId",
+            "url": "http://localhost:3000/aggregatedData/657d490b9cf99ca9157894e2",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-12-16T06:51:30.761Z",
+            "modified": "2023-12-16T07:03:07.093Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
