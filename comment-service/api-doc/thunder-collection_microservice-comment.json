@@ -1,1 +1,56 @@
-
+{
+    "client": "Thunder Client",
+    "collectionName": "microservice-comment",
+    "dateExported": "2023-12-16T07:25:51.667Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "c523b521-7d13-4697-8882-0b20ea29eb15",
+            "colId": "219a873c-7f95-4c0b-a2b6-6d19c0476b72",
+            "containerId": "",
+            "name": "http://localhost:3003/comments",
+            "url": "http://localhost:3003/comments",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2023-12-16T06:20:22.798Z",
+            "modified": "2023-12-16T07:18:32.652Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"post_id\":\"657d4a52da23bcf1353f61f8\",\n  \"text\":\"comment text\" ,\n  \"userId\":\"657d490b9cf99ca9157894e2\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "b0d229c5-c825-4470-9660-710f1f9ebd17",
+            "colId": "219a873c-7f95-4c0b-a2b6-6d19c0476b72",
+            "containerId": "",
+            "name": "http://localhost:3003/comments",
+            "url": "http://localhost:3003/comments",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2023-12-16T06:20:56.631Z",
+            "modified": "2023-12-16T06:20:56.631Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "05019460-97b7-4ba5-9af1-5a8d6999272b",
+            "colId": "219a873c-7f95-4c0b-a2b6-6d19c0476b72",
+            "containerId": "",
+            "name": "http://localhost:3003/comments/:userId",
+            "url": "http://localhost:3003/comments/657d490b9cf99ca9157894e2",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2023-12-16T06:58:14.266Z",
+            "modified": "2023-12-16T06:58:38.363Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
