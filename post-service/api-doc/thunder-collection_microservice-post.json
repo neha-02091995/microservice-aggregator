@@ -1,1 +1,56 @@
-
+{
+    "client": "Thunder Client",
+    "collectionName": "microservice-post",
+    "dateExported": "2023-12-16T07:25:38.602Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "46c14347-fed2-41ab-8e39-98384df2f527",
+            "colId": "9dabe39e-1e32-4086-98d9-207b258d1ce4",
+            "containerId": "",
+            "name": "http://localhost:3001/posts",
+            "url": "http://localhost:3001/posts",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2023-12-16T05:30:40.544Z",
+            "modified": "2023-12-16T06:57:15.761Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"title\":\"post title\",\n  \"content\":\"post content\",\n  \"userId\" : \"657d490b9cf99ca9157894e2\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "cd31f9b9-ba71-41f0-92cc-65d142306c19",
+            "colId": "9dabe39e-1e32-4086-98d9-207b258d1ce4",
+            "containerId": "",
+            "name": "http://localhost:3001/posts",
+            "url": "http://localhost:3001/posts",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2023-12-16T05:31:41.761Z",
+            "modified": "2023-12-16T05:31:41.761Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "7415c492-6ce8-4297-926a-898d2559c18c",
+            "colId": "9dabe39e-1e32-4086-98d9-207b258d1ce4",
+            "containerId": "",
+            "name": "http://localhost:3001/posts/:userId",
+            "url": "http://localhost:3001/posts/657d490b9cf99ca9157894e2",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2023-12-16T06:54:32.849Z",
+            "modified": "2023-12-16T06:55:58.228Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
