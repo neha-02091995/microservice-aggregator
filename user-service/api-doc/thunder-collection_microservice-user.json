@@ -1,1 +1,56 @@
-
+{
+    "client": "Thunder Client",
+    "collectionName": "microservice-user",
+    "dateExported": "2023-12-16T07:25:16.419Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "c32ba4bc-be3a-4305-8538-307e719d7bcd",
+            "colId": "cae1cbff-6fad-4536-95a7-694b7609d3e7",
+            "containerId": "",
+            "name": "http://localhost:3002/users",
+            "url": "http://localhost:3002/users",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2023-12-16T05:23:31.219Z",
+            "modified": "2023-12-16T05:23:31.219Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\" : \"a@gmail.com\",\n  \"name\": \"abhishek\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "0ce4d976-c668-4880-8215-7f485197827b",
+            "colId": "cae1cbff-6fad-4536-95a7-694b7609d3e7",
+            "containerId": "",
+            "name": "http://localhost:3002/users",
+            "url": "http://localhost:3002/users",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2023-12-16T05:24:23.385Z",
+            "modified": "2023-12-16T05:24:23.385Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "9cae3549-1415-4e8d-8da3-2ab477cd0029",
+            "colId": "cae1cbff-6fad-4536-95a7-694b7609d3e7",
+            "containerId": "",
+            "name": "http://localhost:3002/users/:userId",
+            "url": "http://localhost:3002/users/657d490b9cf99ca9157894e2",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2023-12-16T06:52:03.421Z",
+            "modified": "2023-12-16T06:52:33.149Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
